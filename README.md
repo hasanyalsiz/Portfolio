@@ -18,7 +18,7 @@
 -   Download file button
 -   Simple and responsive design
 
-### To Contribute to this project, read the [Contribution Guidlines](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/CONTRIBUTING.md)
+### To Contribute to this project, read the [Contribution Guidlines](https://github.com/hasanyalsiz/portfolio.git)
 
 ## Setup
 
@@ -35,13 +35,13 @@ brew install node
 2. Clone the repo:
 
 ```
-git clone https://github.com/realstoman/react-tailwindcss-portfolio.git
+git clone https://github.com/hasanyalsiz/portfolio.git
 ```
 
 3. Open the project folder:
 
 ```
-cd react-tailwindcss-portfolio
+cd portfolio
 ```
 
 4. Install packages and dependencies:
@@ -72,12 +72,8 @@ yarn test
 
 -   Always run `yarn install` after pulling new changes
 -   I'll be constantly updating this repo as I'll be adding more sections to it, so please always check the projects section of this repo to see what tasks are under todo and in progress
--   Coming Soon [I'll be doing a screencast](https://www.youtube.com/realstoman). Soon I'll be uploading a video to my YouTube channel where I'll be going through the process of creating this portoflio
 -   Illustrations from [unDraw](https://undraw.co) and [Freepik](https://freepik.com)
 -   Images from [Unsplash](https://unsplash.com)
 -   Feel free to use it as your own portfolio
 -   Contributions are welcome
 
-### License
-
-[MIT](https://github.com/realstoman/react-tailwindcss-portfolio/blob/main/LICENSE)

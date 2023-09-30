@@ -31,6 +31,8 @@ const ContactForm = () => {
         },
         (error) => {
           console.log(error.text);
+          toast.warn("message could not be sent");
+
         }
       );
   };
