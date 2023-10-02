@@ -9894,7 +9894,7 @@ react-router@6.0.2:
   dependencies:
     history "^5.1.0"
 
-react-scripts@4.0.3:
+react-scripts@^4.0.3:
   version "4.0.3"
   resolved "https://registry.npmjs.org/react-scripts/-/react-scripts-4.0.3.tgz"
   integrity sha512-S5eO4vjUzUisvkIPB7jVsKtuH2HhWcASREYWHAQ1FP5HyCv3xgn+wpILAEWkmy+A+tTNbSZClhxjT3qz6g4L1A==
