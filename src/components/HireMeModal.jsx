@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FiX } from "react-icons/fi";
 import Button from "./reusable/Button";
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
 
 const selectOptions = [
   "Web Application",
@@ -14,28 +14,28 @@ const selectOptions = [
 const HireMeModal = ({ onClose, onRequest }) => {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    console.log("Sending email...");
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+  //   console.log("Sending email...");
 
-    emailjs
-      .sendForm(
-        "service_6rvo2ej", // Service ID
-        "template_3mznq3l", // Template ID
-        form.current,
-        "bl7VDDEfmeg2mSKt1" // User ID (Public Key)
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          form.current.reset();
-          alert("Email Sent!");
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_6rvo2ej", // Service ID
+  //       "template_3mznq3l", // Template ID
+  //       form.current,
+  //       "bl7VDDEfmeg2mSKt1" // User ID (Public Key)
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //         form.current.reset();
+  //         alert("Email Sent!");
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <motion.div
@@ -65,7 +65,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
             <div className="modal-body p-5 w-full h-full">
               <form
                 ref={form}
-                onSubmit={sendEmail}
+                // onSubmit={sendEmail}
                 className="max-w-xl m-4 text-left"
               >
                 <div className="">
